@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 1024px) {
+    /* this will be applied on any screen smaller than 980px */
+    
+    
+}
+  
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 720px) {
+    /* this will be applied on any screen between 1024px and 720px */
+     
+    
+}
+  
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 720px) {
+    /* this will be applied on any screen smaller than 720px */
+    
+}
