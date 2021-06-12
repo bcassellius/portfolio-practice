@@ -1,5 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: #ffca38;
+    --color2: #0079a8;
+    --color3: #39b2b2;
+    --color4: #a7f6ff;
+    --color5: #680087;
+}
+
+.hero {
+    background-image: url(../images/pexels-miguel-á-padriñán-194098.jpg);
+}
+
+.footer {
+    image: url(../images/pexels-pixabay-220502.jpg);
+}
+.date {
+    margin: 3%;
+    position: relative;
+    text-align: center;
+}
+.date img {
+    width: 30%;
+    height: auto;
+} 
+.year {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 25px;
+}
 
 
+
+
+/* navigation*/
+/* hero */
+/* about me */
+/* samples */
+/* contact info */
+/* footer */
 
 
 
@@ -7,20 +55,26 @@
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 1024px) {
-    /* this will be applied on any screen smaller than 980px */
+    /* this will be applied on any screen smaller than 1024px */
     
-    
+    .year{
+        font-size: 20px;
+    }      
 }
   
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 720px) {
-    /* this will be applied on any screen between 1024px and 720px */
+@media screen and (max-width: 775px) {
+    /* this will be applied on any screen between 1024px and 775px */
      
-    
+    .year{
+        font-size: 15px;
+    }    
 }
   
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 720px) {
-    /* this will be applied on any screen smaller than 720px */
-    
+@media screen and (max-width: 520px) {
+    /* this will be applied on any screen smaller than 775px */
+    .year{
+        font-size: 12px;
+    }    
 }
