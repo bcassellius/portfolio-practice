@@ -101,12 +101,12 @@ header nav ul li a:hover {
     position: relative;
 }
 
-.img span {
+.sample span {
     position: absolute;
-    width:100%;
     background: var(--color3);
     color: var(--color4);
-
+    top: 10px;
+    right: 10px;
 }
 
 .sample-app {
@@ -156,7 +156,9 @@ header nav ul li a:hover {
     .year{
         font-size: 20px;
     }
-
+    .sample {
+        flex: 0 0 40%;
+    }
     header h1 {
         font-size:40px;
         text-shadow: 3px 3px 5px  rgba(0, 0, 0, 0.5);
@@ -174,7 +176,9 @@ header nav ul li a:hover {
     .year{
         font-size: 15px;
     }
-    
+    .sample {
+        flex: 0 0 75%;
+    }
     header h1 {
         font-size:35px;
         text-shadow: 3px 3px 5px  rgba(0, 0, 0, 0.5);
@@ -199,5 +203,9 @@ header nav ul li a:hover {
 
     header nav ul li a {
         font-size: 11px;
+    }
+
+    .sample {
+        flex: 100%;
     }
 }
