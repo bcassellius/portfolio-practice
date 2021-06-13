@@ -12,6 +12,16 @@
     --color5: #680087;
 }
 
+.title {
+    color: var(--color5);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    text-decoration: none;
+    text-align: left;
+}
+
 /* style navigation*/
 header {
     padding: 20px 35px;
@@ -80,7 +90,7 @@ header nav ul li a:hover {
     background-color: var(--color3);
 }
 
-.samples{
+.samples {
     width: 100%;
     margin: auto;
     display: flex;
@@ -112,10 +122,10 @@ header nav ul li a:hover {
     text-align: center;
 }
 
-.sample-app {
-    padding: 25px;
-    line-height: 1.3;
+.flex-row {
+    background: var(--color3);
 }
+
 
 
 
