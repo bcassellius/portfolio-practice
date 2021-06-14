@@ -5,7 +5,7 @@
 }
 
 :root {
-    --color1: #ffca38;
+    --color1: #f3a245;
     --color2: #0079a8;
     --color3: #39b2b2;
     --color4: #a3d4dd;
@@ -81,8 +81,6 @@ header nav ul li a:hover {
 }
 
 /* about me */
-
-
 .info{
     background-color: var(--color3);
     padding: 20px;
@@ -142,12 +140,11 @@ header nav ul li a:hover {
 .sample span {
     background: var(--color3);
     color: var(--color4);
-    top: 10px;
-    right: 10px;
     margin-top: auto;
     width: 100%;
     padding: 10px 5px;
     text-align: center;
+    font-size: 25px;
 }
 
 .flex-row {
@@ -159,8 +156,11 @@ header nav ul li a:hover {
 .contact{
     background-color: var(--color3);
 }
+
 .row{
     flex:wrap;
+    display: -webkit-flex;
+    display: flex;
     color: var(--color4);
     background-color: var(--color3);
     font-size: 25px;
@@ -168,28 +168,20 @@ header nav ul li a:hover {
     text-decoration: none;
 }
 
-/* Style the header */
-.header {
-    background-color: #f1f1f1;
+.contact-info {
+    background-color: var(--color3);
     padding: 30px;
     text-align: center;
     font-size: 35px;
+    color: var(--color1)
   }
   
-  /* Container for flexboxes */
-  .row {
-    display: -webkit-flex;
-    display: flex;
-  }
-  
-  /* Create three equal columns that sits next to each other */
   .column {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-  }
+   }
   
   /* Style the footer */
   .footer {
