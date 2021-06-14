@@ -95,7 +95,7 @@ header nav ul li a:hover {
 
 .info h2 {
     font-style: italic;
-    font-size: 55px;
+    font-size: 40px;
     color: var(--color4);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -111,7 +111,6 @@ header nav ul li a:hover {
 
 
 /* samples */
-
 .work {
     background-color: var(--color3);
 }
@@ -172,7 +171,7 @@ header nav ul li a:hover {
     background-color: var(--color3);
     padding: 30px;
     text-align: center;
-    font-size: 35px;
+    font-size: 20px;
     color: var(--color1)
   }
   
@@ -237,7 +236,11 @@ header nav ul li a:hover {
     }
 
     .title {
-        font-size: 15px;
+        font-size: 45px;
+    }
+
+    .row {
+        font-size: 23px;
     }
 }
   
@@ -259,6 +262,14 @@ header nav ul li a:hover {
     header nav ul li a {
         font-size: 12px;
     }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .row {
+        font-size: 20px;
+    }
 }
   
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -279,5 +290,13 @@ header nav ul li a:hover {
 
     .sample {
         flex: 100%;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .row {
+        font-size: 18px;
     }
 }
